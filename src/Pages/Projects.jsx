@@ -15,7 +15,7 @@ function Projects({ worksRef }) {
 
       {projects.map((project, index) =>
         project.align === "left" ? (
-         <a href="https://bhav-05-fg.github.io/Movie-Search-App/"> 
+         <a href="https://bhav-05-fg.github.io/Movie-Search-App/" target="blank"> 
          <WorkCardLeft key={index} image={project.image} name={project.name} />
          </a>
         ) : (

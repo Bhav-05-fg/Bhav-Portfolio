@@ -2,10 +2,12 @@
   "name": "react-router",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://bhav-05-fg.github.io/Bhav-Portfolio/",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "predeploy": 
     "lint": "eslint .",
     "preview": "vite preview"
   },
