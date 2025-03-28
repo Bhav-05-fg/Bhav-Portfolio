@@ -27,7 +27,7 @@ function App() {
   // Handle background opacity on scroll
   useEffect(() => {
     const handleScroll = () => {
-      setOpacity(Math.max(1 - window.scrollY / 400, 0));
+      setOpacity(Math.max(1 - window.scrollY / 300, 0));
     };
 
     window.addEventListener("scroll", handleScroll);
@@ -47,7 +47,7 @@ function App() {
   return (
     <>
       <motion.img
-        src="/van-gogh-night.webp"
+        src="van-gogh-night.webp"
         alt="background-image"
         initial={{ opacity: 0 }}
         animate={{ opacity }}

@@ -2,12 +2,12 @@ import { motion } from "framer-motion";
 
 function About({ aboutRef }) {
   const skills = [
-    { name: "HTML", img: "/skills/html.png" },
-    { name: "CSS", img: "/skills/css.png" },
-    { name: "JavaScript", img: "/skills/javascript.png" },
-    { name: "React.JS", img: "/skills/react_js.png" },
-    { name: "Tailwind CSS", img: "/skills/tailwind_css.png" },
-    { name: "Git/Github", img: "/Socials/brand-github.svg", className: "invert" },
+    { name: "HTML", img: "skills/html.png" },
+    { name: "CSS", img: "skills/css.png" },
+    { name: "JavaScript", img: "skills/javascript.png" },
+    { name: "React.JS", img: "skills/react_js.png" },
+    { name: "Tailwind CSS", img: "skills/tailwind_css.png" },
+    { name: "Git/Github", img: "Socials/brand-github.svg", className: "invert" },
   ];
 
   return (
@@ -40,7 +40,7 @@ function About({ aboutRef }) {
               >
                 {index % 2 === 0 ? (
                   <>
-                    <img src={skill.img} alt={`${skill.name}_LOGO`} className={`place-self-center h-30 w-30 sm:h-35 sm:w-35 lg:h-30
+                    <img src={skill.img} alt={`/${skill.name}_LOGO`} className={`place-self-center h-30 w-30 sm:h-35 sm:w-35 lg:h-30
                       lg:w-30 xl:h-35 xl:w-35 object-contain ${skill.className || ""}`} />
                     <h1 className="text-center content-center text-[#F5EEE6] text-4xl font-bold">{skill.name}</h1>
                   </>

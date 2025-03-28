@@ -2,8 +2,8 @@ import WorkCardRight from "../components/WorkCardRight";
 import WorkCardLeft from "../components/WorkCardLeft";
 
 const projects = [
-  { image: "/van-gogh-night.webp", name: "Movie Search Site", align: "left" },
-  { image: "/savis_cake.png", name: "Savis's Cake", align: "right" },
+  { image: "van-gogh-night.webp", name: "Movie Search Site", align: "left" },
+  { image: "savis_cake.png", name: "Savis's Cake", align: "right" },
 ];
 
 function Projects({ worksRef }) {

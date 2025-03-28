@@ -9,9 +9,9 @@ className="contact flex justify-center py-2 rounded-b-full transition-all durati
 import { motion } from "framer-motion";
 
 const socialLinks = [
-  { href: "https://www.instagram.com/bhav_05_fg/", imgSrc: "/Socials/brand-instagram.svg", alt: "Instagram" },
-  { href: "https://github.com/Bhav-05-fg", imgSrc: "/Socials/brand-github.svg", alt: "GitHub" },
-  { href: "https://x.com/Bhav_05_fg", imgSrc: "/Socials/brand-x.svg", alt: "X (Twitter)" }
+  { href: "https://www.instagram.com/bhav_05_fg/", imgSrc: "Socials/brand-instagram.svg", alt: "Instagram" },
+  { href: "https://github.com/Bhav-05-fg", imgSrc: "Socials/brand-github.svg", alt: "GitHub" },
+  { href: "https://x.com/Bhav_05_fg", imgSrc: "Socials/brand-x.svg", alt: "X (Twitter)" }
 ];
 
 function Contact({ contactRef }) {
@@ -33,7 +33,7 @@ function Contact({ contactRef }) {
           <h1 className="text-3xl underline font-bold text-[#181818] mb-4">E-Mail</h1>
           <div className="flex items-center justify-center">
             <img
-              src="/Socials/envelope.svg"
+              src="Socials/envelope.svg"
               alt="Email Icon"
               className="h-8 mr-3 transition-transform hover:scale-110"
             />
