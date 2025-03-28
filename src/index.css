@@ -1,0 +1,32 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline:opsz,wght@10..72,100..900&display=swap');
+
+*{
+  box-sizing: border-box;
+}
+html, .scroll {
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+.img-div{
+  background: none
+}
+.text-back{
+  background:url("/van-gogh-day.jpg") ;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+body,.contact {
+  font-family: Poppins, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #181818;
+  background-image: url('https://www.transparenttextures.com/patterns/asfalt-light.png'); /* Fine-grain texture */
+  background-size: 200px 200px; /* Reduce grain density */
+  animation: grain 0.5s steps(3) infinite;
+}
+
+@keyframes grain {
+  0% { background-position: 0 0; }
+  100% { background-position: 100px 100px; background-size: 70px; } /* Smaller movement for less dizziness */
+}
